@@ -9,7 +9,7 @@ for(int i = 100; i > 0; i--)
 }
 foreach(int count in numbers) { //laço que percorre toda a lista
 
-    sum = count % 2 == 0 ? sum += count : sum; //Verifica se o número(count) é par, se sim, soma ele à variavel sum
+    sum = count % 2 == 0 ? sum + count : sum; //Verifica se o número(count) é par, se sim, soma ele à variavel sum
     Console.WriteLine(count % 5 == 0 ? "Renan" : count); //Verifica se o número(count) é multiplo de 5, se sim, imprime Renan
 }
 
